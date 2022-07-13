@@ -33,7 +33,7 @@ public:
             if (rst.size() == node.first)
             {
                 vector<int> tmp;
-                rst.push_back(tmp);
+                rst.push_back(move(tmp));
             }
 
             rst[node.first].push_back(node.second->val);
