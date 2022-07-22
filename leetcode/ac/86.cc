@@ -37,7 +37,7 @@ public:
             head = head->next;
         }
 
-        big - next = nullptr;
+        big->next = nullptr;
         small->next = big_head->next;
         ListNode *rst = small_head->next;
 
