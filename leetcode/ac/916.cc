@@ -16,7 +16,7 @@ public:
     bool verifyUniversalWord(map<char, int> &words2, map<char, int> &word1)
     {
 
-        for (auto &kv : word2)
+        for (auto &kv : words2)
         {
             if (word1.find(kv.first) == word1.end() || word1[kv.first] < kv.second)
             {
